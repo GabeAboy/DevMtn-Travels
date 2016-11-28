@@ -8,7 +8,6 @@
     padding-top:25px;
     overflow: hidden;
 }
-
 .booked-main-container h1 {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -16,7 +15,8 @@
 }
 
 .booked-main-container img {
-    width: 100%;
+    width: 300px;
+    height: 300px;
 }
 
 .booked-main-container button {
