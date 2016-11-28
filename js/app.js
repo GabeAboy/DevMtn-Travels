@@ -33,6 +33,11 @@ angular.module('devmtnTravel', ['ui.router'])
               controller:"locationsCtrl"
 
           })
+          .state('packageInfo',{
+            url:'/packageInfo/:id',
+            templateUrl:"../views/packageInfo.html",
+            controller:'bookedCtrl'
+          })
           .state('about',{
             url:'/about',
             templateUrl:"../views/about.html"

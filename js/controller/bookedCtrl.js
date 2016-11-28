@@ -8,6 +8,5 @@ angular.module('devmtnTravel').controller('bookedCtrl',function($scope,mainSrv,$
     }
   };
   bookFocus();
-  console.log($scope.bookFocus);
 
 });
